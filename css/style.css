@@ -1,0 +1,60 @@
+@import "fonts.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", "Product-Sans", "Roboto", "sans-serif";
+  box-sizing: border-box;
+}
+body {
+  background: #333;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+
+  position: relative;
+}
+
+header {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.header_block {
+  text-align: center;
+  padding: 30px 0;
+}
+.header_img {
+  border-radius: 20px;
+  border: 8px groove red;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  transform: translateX(100%);
+}
+.header_img.active {
+  transform: translateX(0%);
+}
+.header_btn {
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  left: 0;
+  width: 200px;
+  margin: auto;
+  background: #e81224;
+  color: white;
+}
+
+.header_title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
